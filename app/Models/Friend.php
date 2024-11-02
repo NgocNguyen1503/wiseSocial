@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Friend extends Model
 {
     const APPROVED = 2;
-    const un_APPROVED = 1;
+    const UN_APPROVED = 1;
 
     use HasFactory;
 

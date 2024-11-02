@@ -12,9 +12,9 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
-    const ONLINE_STATUS_ONLINE = 2;
+    const ONLINE = 2;
 
-    const ONLINE_STATUS_OFFLINE = 1;
+    const OFFLINE = 1;
 
     const STATUS_ACTIVE = 1;
 
