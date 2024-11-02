@@ -39,7 +39,7 @@ return new class extends Migration
             $table->id();
             $table->integer('user_id');
             $table->integer('friend_id');
-            $table->integer('apprved')->default(1);
+            $table->integer('approved')->default(1);
             $table->timestamps();
         });
         Schema::create('violence_logs', function (Blueprint $table) {
